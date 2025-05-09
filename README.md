@@ -6,7 +6,9 @@ The combination of the Arduino Uno and the RC522 RFID reader is widely used to i
 The RFID reader in the ACS system performs a key function - user identification at the stage of access to the object. When a contactless RFID card is held up to the reader, a unique identifier (UID) is read, which is then used to determine whether the user is registered in the system and whether he has the right to enter or exit.
 
 The system implements two reader operation modes:
+
 1 Entrance control is used to record the moment the user enters the room.
+
 2 Exit control — determines the moment of exit from the room.
 
 Each RFID RC522 device is connected to its own Arduino Uno board, which provides independent signal processing at the input and output. After reading the UID, the data is sent to the microcontroller, where it is analyzed for presence in the database. If the user is successfully recognized, his unique ID is determined, and the direction of passage (entrance/exit) is recorded, which is marked with a special status parameter (1 — entrance, 0 — exit).
@@ -192,7 +194,7 @@ The developed access control and management system (ACS) uses RFID cards of the 
 
 - Vulnerability to cloning. (MIFARE Classic cards are subject to a number of vulnerabilities, including the ability to clone UIDS. In our system, this risk is offset by the use of the second authentication factor, biometric recognition, which makes card forgery useless).
 
-### 📦 Form factors of the cards used:
+#### 📦 Form factors of the cards used:
 
 Classic plastic cards (ID-1, bank card size), if necessary, it can be replaced with key rings or bracelets with a MIFARE chip.
 
