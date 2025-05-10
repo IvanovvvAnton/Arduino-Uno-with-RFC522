@@ -1,5 +1,43 @@
 # Arduino-Uno-with-RFC522
 
+## 📋 Table of Contents
+
+### 📌 System Overview
+1. [Project Purpose](#-appointment)
+   - [Operation Modes](#operation-modes)
+   - [Two-Factor Authentication](#two-factor-authentication)
+
+### ⚙️ Hardware Implementation
+1. [Equipment Selection](#-equipment)
+   - [Key Features](#key-features)
+2. [Connection Diagram](#-hardware-connection-diagram)
+   - [Pin Configuration](#pin-connections)
+   - [Circuit Features](#circuit-features)
+
+### 🖥️ Software Implementation
+1. [Development Environment](#-the-software-part)
+   - [Required Libraries](#required-libraries)
+2. [Firmware Logic](#-firmware-logic)
+   - [UID Reading](#uid-reading-code)
+
+### 🧪 Testing & Validation
+1. [Testing Methodology](#-testing-methodology)
+2. [Test Results](#-the-results-obtained)
+   - [Performance Metrics](#performance-metrics)
+   - [Reliability Data](#reliability-and-stability)
+
+### 💳 RFID Specifications
+1. [MIFARE Classic Cards](#-rfid-cards-used)
+   - [Technical Parameters](#technical-parameters)
+   - [Security Considerations](#security-considerations)
+
+### 🧷 Conclusion
+- [System Summary](#-conclusion)
+- [Future Improvements](#future-improvements)
+
+### 👥 Authors
+- [Contact Information](#-authors)
+
 The combination of the Arduino Uno and the RC522 RFID reader is widely used to implement user identification functions in access control and management systems (ACS). This solution allows you to organize a reliable and inexpensive way to read RFID cards used when entering and exiting secure premises.
 
 ## 📌 Appointment
