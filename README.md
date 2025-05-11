@@ -17,7 +17,7 @@
 7. [MIFARE Classic Cards](#-rfid-cards-used)
    - [General information](#-general-information-about-mifare-classic-cards)
    - [Functional features](#%EF%B8%8Ffunctional-features)
-   - [Disadvantages and protective measures](%EF%B8%8F-disadvantages-and-protective-measures)
+   - [Disadvantages and protective measures](#%EF%B8%8F-disadvantages-and-protective-measures)
 8. [Conclusion](#-conclusion)
 9. [Authors](#authors)
 
