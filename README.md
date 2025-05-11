@@ -18,7 +18,7 @@
    - [General information](#-general-information-about-mifare-classic-cards)
    - [Functional features](#%EF%B8%8Ffunctional-features)
    - [Disadvantages and protective measures](%EF%B8%8F-disadvantages-and-protective-measures)
-8. [Conclusion](#conclusion-1)
+8. [Conclusion](#-conclusion-1)
 9. [Authors](#authors)
 
 The combination of the Arduino Uno and the RC522 RFID reader is widely used to implement user identification functions in access control and management systems (ACS). This solution allows you to organize a reliable and inexpensive way to read RFID cards used when entering and exiting secure premises.
