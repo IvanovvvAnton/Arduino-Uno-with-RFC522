@@ -1,42 +1,25 @@
 # Arduino-Uno-with-RFC522
 
 ## 📋 Table of Contents
-
-### 📌 System Overview
-1. [Project Purpose](#-appointment)
-   - [Operation Modes](#operation-modes)
-   - [Two-Factor Authentication](#two-factor-authentication)
-
-### ⚙️ Hardware Implementation
-1. [Equipment Selection](#-equipment)
-   - [Key Features](#key-features)
-2. [Connection Diagram](#-hardware-connection-diagram)
-   - [Pin Configuration](#pin-connections)
-   - [Circuit Features](#circuit-features)
-
-### 🖥️ Software Implementation
-1. [Development Environment](#-the-software-part)
-   - [Required Libraries](#required-libraries)
-2. [Firmware Logic](#-firmware-logic)
-   - [UID Reading](#uid-reading-code)
-
-### 🧪 Testing & Validation
-1. [Testing Methodology](#-testing-methodology)
-2. [Test Results](#-the-results-obtained)
-   - [Performance Metrics](#performance-metrics)
-   - [Reliability Data](#reliability-and-stability)
-
-### 💳 RFID Specifications
-1. [MIFARE Classic Cards](#-rfid-cards-used)
-   - [Technical Parameters](#technical-parameters)
-   - [Security Considerations](#security-considerations)
-
-### 🧷 Conclusion
-- [System Summary](#-conclusion)
-- [Future Improvements](#future-improvements)
-
-### 👥 Authors
-- [Contact Information](#-authors)
+1. [Appointment](#-appointment)
+2. [Equipment](#%EF%B8%8F-equipment)
+3. [Software part](#%EF%B8%8F-the-software-part)
+   - [Firmware logic](#-firmware-logic)
+4. [UID reading code](#-uid-reading-code)
+5. [Hardware connection diagram](#-hardware-connection-diagram)
+   - [Connecting RC522](#connecting-rc522-pins-to-arduino-uno)
+   - [Features of the scheme](#-features-of-the-scheme)
+6. [Test results](#-test-results)
+   - [Testing methodology](#-testing-methodology)
+   - [Results obtained](#-the-results-obtained)
+   - [Example](#-example)
+   - [Reliability and stability](#-reliability-and-stability)
+7. [MIFARE Classic Cards](#-rfid-cards-used)
+   - [General information](#-general-information-about-mifare-classic-cards)
+   - [Functional features](#%EF%B8%8Ffunctional-features)
+   - [Disadvantages and protective measures](%EF%B8%8F-disadvantages-and-protective-measures)
+8. [Conclusion](#-conclusion-1)
+9. [Authors](#-authors)
 
 The combination of the Arduino Uno and the RC522 RFID reader is widely used to implement user identification functions in access control and management systems (ACS). This solution allows you to organize a reliable and inexpensive way to read RFID cards used when entering and exiting secure premises.
 
